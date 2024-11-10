@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/tagliala/cucumber-rails.git
+  revision: f9293863a0cb50b6da9c3daae7b2959a1116149a
+  branch: feature/589-rails-8
+  specs:
+    cucumber-rails (3.0.1)
+      capybara (>= 3.11, < 4)
+      cucumber (>= 5, < 10)
+      railties (>= 5.2, < 8.1)
+
 PATH
   remote: ../..
   specs:
@@ -147,10 +157,6 @@ GEM
     cucumber-html-formatter (21.7.0)
       cucumber-messages (> 19, < 27)
     cucumber-messages (22.0.0)
-    cucumber-rails (3.0.1)
-      capybara (>= 3.11, < 4)
-      cucumber (>= 5, < 10)
-      railties (>= 5.2, < 8)
     cucumber-tag-expressions (6.1.1)
     cuprite (0.15.1)
       capybara (~> 3.0)
@@ -411,7 +417,7 @@ DEPENDENCIES
   capybara
   cssbundling-rails
   cucumber
-  cucumber-rails
+  cucumber-rails!
   cuprite
   database_cleaner-active_record
   devise
